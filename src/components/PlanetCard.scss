@@ -1,0 +1,40 @@
+
+.planet {
+    height: 200px;
+    width: 300px;
+    transition: 0.3s;
+    font-size: 1.2em;
+    border-radius: 10px;
+    display: inline-table;
+    margin-right: 1.5em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    text-align: left;
+    line-height: 1.6;
+    border-style: outset;
+    padding: 2px;
+  
+  
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(177, 157, 157, 0.2);
+  }
+
+  &-light {
+    background-image: linear-gradient(to right, #F5E3E6, #D9E4F5);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: black;
+  }
+
+  &-dark {
+    background-image: linear-gradient(to right, #5E5C5C, #9DC5C3);
+    box-shadow: 0 4px 8px 0 rgba(41, 39, 39, 0.2);
+    color: white;
+  }
+  
+}
+
+.dataLine {
+  display: block;
+}
+
+  

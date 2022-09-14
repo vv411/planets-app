@@ -1,0 +1,53 @@
+
+.multipleSelectContainer{
+    position: relative;
+    width: 180px;
+    border-radius: 10px;
+    background-color: white;
+    border-style: block;
+    border: solid 1px gray;
+    padding: 8px;
+    text-align: left;
+    bottom: 2.8em;
+    left: 78em;
+    height: 20px;
+
+    &:hover{
+        .multipleSelectOptions{
+            display: block;
+        }
+    }
+}
+
+.multipleSelectOptions{
+    background-color: white;
+    position: relative;
+    display: none;
+    padding-left: 0px;
+    border: solid 1px #eee;
+    padding: 0px 0px;
+    z-index: 100;
+    max-height: 500px;
+    overflow-y: scroll;
+    top: -0.5em;
+}
+
+.multipleSelectOption{
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #eee;
+    }
+    
+    &-checkbox{
+        margin-right:5px;
+    }
+}
+
+
+.arrowImg{
+    float: right;
+}

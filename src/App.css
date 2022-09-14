@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  font-family: sans-serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container-light {
+  background-color: rgb(230, 238, 247);
+}
+
+.Container-dark {
+  background-color: rgb(0, 2, 5);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +17,11 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+.OptionsHeader {
+  margin: '0 auto';
+  margin-top: '2%';
+  width: 100em;
+  max-height: 70px;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +32,53 @@
     transform: rotate(360deg);
   }
 }
+
+.themeButton {
+  background-color: white;
+  border-radius: .5em;
+  height: 30px;
+  margin: 10px;
+}
+
+.themeButton:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.custom-select {
+  position: relative;
+  background-color: white;
+  width: 200px;
+  margin-right: 1em;
+}
+
+.textFilter {
+  font-size: 1.3em;
+  margin-right: 1em;
+}
+
+select {
+  padding: 0.5em;
+  border-radius: .5em;
+  border: 1px solid #acacac;
+  font-size: 1em;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  
+  background: url('https://cdn1.iconfinder.com/data/icons/arrows-vol-1-4/24/dropdown_arrow-512.png');
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-position: right;
+  background-origin: content-box;
+}
+
+.multipleSelectDiv {
+  float: right;
+
+
+}
+
+
