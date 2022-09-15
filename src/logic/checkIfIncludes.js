@@ -9,8 +9,6 @@ export default function checkIfIncludes(inputData, searchTerms) {
     let dataArr = inputData.split(",");
     let dataLen = dataArr.length;
 
-    let searchLen = searchTerms.length;
-
     for (let i = 0; i < dataLen; i++) {
         let currItem = dataArr[i].trim();
 

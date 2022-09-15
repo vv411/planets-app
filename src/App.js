@@ -76,7 +76,7 @@ function App() {
           const newArray = [...selectedOpts]
 
           if (newArray.includes(iOption)) {
-              return newArray.filter(item => item != iOption)
+              return newArray.filter(item => item !== iOption)
           } else {
               newArray.push(iOption)
               return newArray;
