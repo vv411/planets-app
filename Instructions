@@ -1,0 +1,6 @@
+
+1. Download zip file from the github repo
+2. Install Node if necessary
+3. Open a command prompt
+4. Install React if necessary with 'npm i react'
+5. enter 'npm run start'
